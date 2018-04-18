@@ -5,3 +5,5 @@ gcc program.c -o program
 
 #### view elf seg header
 objdump -h program
+#### more detailed seg header
+readelf -S program
